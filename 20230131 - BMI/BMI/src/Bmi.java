@@ -15,19 +15,19 @@ public class Bmi {
         System.out.println("체중(kg): " + weight);
 
         if(bmi <= 18.5){
-            System.out.println("저체중");
+            System.out.println("비만도 결과: 저체중");
         }
 
         if(bmi > 18.5 && bmi <= 23){
-            System.out.println("정상");
+            System.out.println("비만도 결과: 정상");
         }
 
         if(bmi > 23 && bmi <= 25){
-           System.out.println("과체중");
+           System.out.println("비만도 결과: 과체중");
         }
 
         if(bmi > 25){
-            System.out.println("비만");
+            System.out.println("비만도 결과: 비만");
         }
 
         System.out.println("BMI: " + bmi);
