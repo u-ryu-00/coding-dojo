@@ -4,8 +4,9 @@ new new new new new new new new new
 수정했습니다.
 
 진짜 마지막 테스트
- */
 
+커밋포인트 돌아가는 연습중입니다.
+ */
 
 
 import java.util.Arrays;
@@ -35,7 +36,7 @@ public class Solution {
             System.out.println(sorts[i]);
 
             System.out.println("시스템");
-
+            System.out.println("커밋포인트 돌아가는 연습중입니다.");
 
 //            System.out.println(strings[i].charAt(n));
         }
