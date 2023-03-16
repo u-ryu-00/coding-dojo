@@ -1,3 +1,9 @@
+/*
+new new new new new new new new new 
+ */
+
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -24,7 +30,7 @@ public class Solution {
             Arrays.sort(sorts);
             System.out.println(sorts[i]);
 
-            
+
 //            System.out.println(strings[i].charAt(n));
         }
     }
