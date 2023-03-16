@@ -1,3 +1,8 @@
+/*
+문자열 내 마음대로 정렬하기 파일 수정해보기
+파일 수정수정수정
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,6 +13,7 @@ public class Solution {
         for (int i = 0; i < strings.length; i += 1) {
             strings[i].indexOf(n);
         }
+        System.out.println("수정");
 
         return answer;
     }
