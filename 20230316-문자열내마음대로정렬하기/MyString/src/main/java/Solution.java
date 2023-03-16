@@ -31,8 +31,10 @@ public class Solution {
             String[] sorts = new String[strings.length];
             sorts[i] = String.valueOf(strings[i].charAt(n));
             System.out.println(sorts[i]);
-            Arrays.sort(sorts);
+//            Arrays.sort(sorts);
             System.out.println(sorts[i]);
+
+            System.out.println("시스템");
 
 
 //            System.out.println(strings[i].charAt(n));
