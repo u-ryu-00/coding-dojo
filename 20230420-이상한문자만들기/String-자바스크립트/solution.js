@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-function solution(s) {
+export default function solution(s) {
   let answer = '';
   const words = s.split(' ');
 
