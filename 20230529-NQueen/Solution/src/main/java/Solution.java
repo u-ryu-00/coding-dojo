@@ -13,10 +13,10 @@ class Solution {
 
     private static void backTracking(int depth, int n) {
         if (depth == n) {
-            answer++;
+            answer += 1;
             return;
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i += 1) {
             board[depth] = i;
             if (valid(depth)) {
                 backTracking(depth + 1, n);
@@ -25,7 +25,7 @@ class Solution {
     }
 
     private static boolean valid(int i) {
-        for (int j = 0; j < i; j++) {
+        for (int j = 0; j < i; j += 1) {
             if (board[i] == board[j]) return false;
             if (Math.abs(i - j) == Math.abs(board[i] - board[j])) return false;
         }
