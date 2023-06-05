@@ -1,0 +1,4 @@
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS WHERE INTAKE_CONDITION = 'Sick' ORDER BY ANIMAL_ID
+
+--- ORDER BY절 --- 
+데이를 정렬하는 절이고 SELECT 문장의 맨 마지막에 기술한다. 
