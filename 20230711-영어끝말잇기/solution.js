@@ -6,7 +6,7 @@ export default function solution(n, words) {
   set.add(words[0]);
 
   for (let i = 1; i < words.length; i += 1) {
-    start = words[i][0];
+    [start] = words[i];
     set.add(words[i]);
     if (end !== start || set.size !== i + 1) {
       answer[0] = (i % n) + 1;
